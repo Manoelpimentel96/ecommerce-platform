@@ -1,7 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
 
 function Home() {
-  return <h1>E-commerce Platform</h1>
+  return (
+    <h1 className="text-4xl font-bold underline">
+      E-commerce Platform
+    </h1>
+  )
 }
 
 function App() {
