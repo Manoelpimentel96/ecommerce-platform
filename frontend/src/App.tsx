@@ -1,10 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
+import { Button } from '@/components/ui/button'
 
 function Home() {
   return (
-    <h1 className="text-4xl font-bold underline">
-      E-commerce Platform
-    </h1>
+    <main className="flex min-h-screen items-center justify-center">
+      <Button>Adicionar ao carrinho</Button>
+    </main>
   )
 }
 
